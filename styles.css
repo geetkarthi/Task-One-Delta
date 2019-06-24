@@ -1,0 +1,99 @@
+p
+{
+  text-align: center;
+  line-height: 1;
+  font-family: 'Roboto', serif;
+  font-size: 29px;
+  color: blue;
+}
+
+body
+{
+  background-color: #ff0000;
+  margin : 0px;
+}
+input
+{
+  padding: 10px;
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;
+}
+button
+{
+  margin-left: 18px;
+  margin-top: 2px;
+  padding: 1px;
+  padding-left:2px ;
+  padding-right: 2px;
+}
+hr{
+  margin: 50px;
+  margin-top: 100px;
+  border-top: 10px dashed yellow;
+  margin-left: 300px;
+  border radius:10px;
+  width:50%;
+}
+label{
+  display: flex;
+  color: #6600ff;
+  }
+label1{
+  display: flex;
+  color: #669999;
+}
+label2{
+  display: flex;
+  color: #003300;
+}
+label3{
+  display: flex;
+  color: #112233;
+}
+h31{
+  font-family: 'comic sans MS';
+  font-size: 25px;
+  padding: 5px;
+  text-align: right;
+  color: #178904;
+}
+h32{
+  font-family: 'Trebuchet MS';
+  font-size: 25px;
+  padding: 5px;
+  text-align: right;
+  color: #459012;
+}
+h33{
+  font-family: 'palatino';
+  font-size: 25px;
+  padding: 5px;
+  text-align: right;
+  color: #105294;
+}
+h34{
+  font-family: 'Georgia';
+  font-size: 25px;
+  padding: 5px;
+  text-align: right;
+  color: #829304;
+}
+h2
+{
+  font-family: 'Lobster Two', cursive;
+
+}
+#o, #t, #th{
+  border-style:  dashed  ;
+  border-color:  #f56791 ;
+  border-width: 10px;
+  width:600px;
+  padding: 50px;
+  position: relative;
+  left:20%;
+  top:50px;
+  border-radius: 60px 10px 60px 10px;
+  background-color: #fff000;
+  padding: 50px;
+}

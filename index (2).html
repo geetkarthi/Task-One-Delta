@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DIET TRACKER</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="fourth">
+      <h1 class="begin"><u>Welcome!!!</u></h1>
+      <img class ="slide" width=300px height=300px>
+      <h2 class="sli"></h2>
+    </div>
+  <h2>This Website allows you to keep track of what you eat and many more</h2>
+  <p>Everyday, we are offered with a variety of delicacies. This makes it hard for us to keep a tab on how much we eat. This site is a solution to that problem, as it helps you to not exceed the limit daily</p>
+  <img src="images/pizza one.jpg" alt="A pizza slice being eaten" height="200" width="200">
+  <figcaption>A pizza slice being eaten</figcaption><br>
+  <img src="images/salad one.jpg" alt="A healthy salad is a good replacement" height="250" width="250">
+  <figcaption>A healthy salad is a good replacement</figcaption><br>
+  <hr>
+  <div class="first" id="o">
+  <h31>Know your daily calorie requirement!!</h31><br>
+    <label>Enter gender:</label> <input type="text" id="gender"
+    gender="gender"><br>
+    <label>Enter height(in metre):</label> <input type="text" id="height"
+    height="height"><br>
+    <label>Enter weight(in kg):</label> <input type="text" id="weight"
+    weight="weight"><br>
+    <label>Enter Age(in years):</label> <input type="text" id="age"
+    age="age"><br>
+    <button onclick="showcalorie()"
+    >Submit</button><br>
+    <h31 class="bmisc"></h31>
+    <p>We must always know how much to eat per day. Eat a balanced diet and LIVE LONG!!</p>
+  </div>
+  <hr>
+  <div class="second" id="t">
+  <h32>The food items you consumed today can be added here and also displayed</h32><br><br>
+  <label1>Food Item consumed:</label1> <input type="text" id="text1" item="item"><br>
+  <label1>Fat content in food(in grams):</label1> <input type="text" id="text2" fat="fat"><br>
+  <label1>Carbohydrate content in food(in grams):</label1> <input type="text" id="text3" car="carb"><br>
+  <label1>Protein content in food(in grams):</label1> <input type="text" id="text4" protein="protein"><br>
+  <button onclick="add_element_to_array()"
+  >Add</button>
+  <button onclick="display_array()"
+  >Display</button>
+  <div id="Result"></div>
+  <p>One must always eat the required amount as excess food is equal to poison. So, eat properly and STAY HEALTHY!!</p>
+</div>
+  <hr>
+  <div class="third" id="th">
+  <h33>How much water you should have consumed in a day?</h33><br><br>
+  <label2>Weight(in kg):</label2> <input type="text" id="weight1" weight1="weight1"><br>
+  <label2>How long do you workout?(in hours):</label2> <input type="text" id="workout" workout="workout"><br>
+  <button onclick="water_to_be_consumed()"
+  >submit</button>
+  <button onclick="show_water()"
+  >How much Should I drink</button><br>
+  <h33 class="watersc"></h33><br><br>
+  <h34>Tracking whether the water you have drunk upto now is enough or not</h34><br><br>
+  <label3>Hour of the day(24-hour clock):</label3> <input type="text" id="Hour" day="day"><br>
+  <label3>Minute of the day:</label3> <input type="text" id="Minute" Minute="Minute"><br>
+  <label3>Amount of water consumed(in litres):</label3> <input type="text" id="water" water="water"><br>
+  <button onclick="water_to_be_drunk()"
+  >submit</button>
+  <button onclick="show_water_drunk()"
+  >Is This Enough</button><br>
+  <p>One must always stay hydrated, especially during the summer season. Unlike food, it is okay to drink a little extra water just to be sure of good health. HAPPY DRINKING!!</p>
+</div>
+  <script src="index.js"></script>
+  </body>
+</html>
